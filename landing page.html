@@ -85,11 +85,10 @@
       box-shadow: 0 15px 35px rgba(0,0,0,0.35);
     }
 
-    /* Tombol kiri bawah */
+    /* Tombol kiri bawah & kanan bawah */
     .bottom-button {
       position: fixed;
       bottom: 20px;
-      left: 20px;
       z-index: 10;
 
       padding: 9px 15px;
@@ -101,6 +100,16 @@
       border-radius: 20px;
       backdrop-filter: blur(10px);
       transition: 0.3s ease;
+    }
+
+    /* Kiri bawah */
+    .left-button {
+      left: 20px;
+    }
+
+    /* Kanan bawah */
+    .right-button {
+      right: 20px;
     }
 
     .bottom-button:hover {
@@ -136,8 +145,16 @@
     </a>
   </div>
 
-  <a href="https://drive.google.com/drive/folders/1VUTkupvvzwAXKT1MPAG3zDlxQlBh63TN" class="bottom-button">
+  <!-- Tombol kiri bawah -->
+  <a href="https://www.google.com/"
+     class="bottom-button left-button">
     Ω
+  </a>
+
+  <!-- Tombol kanan bawah -->
+  <a href="https://drive.google.com/drive/folders/1VUTkupvvzwAXKT1MPAG3zDlxQlBh63TN"
+     class="bottom-button right-button">
+    ↗
   </a>
 
 </body>
